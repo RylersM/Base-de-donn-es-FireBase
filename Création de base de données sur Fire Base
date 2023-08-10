@@ -15,5 +15,5 @@ La 1ère étape de création de base de données commence par la création d'un 
   *write(semblable à la règle "read")
 
 
-https://ap-music-e1542-default-rtdb.europe-west1.firebasedatabase.app/albums
-https://ap-music-e1542-default-rtdb.europe-west1.firebasedatabase.app/albumsList
+https://app-music-e1542-default-rtdb.europe-west1.firebasedatabase.app/albums/.json
+https://app-music-e1542-default-rtdb.europe-west1.firebasedatabase.app/albumsList/.json
