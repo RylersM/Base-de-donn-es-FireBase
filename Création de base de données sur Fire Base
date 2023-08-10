@@ -1,0 +1,19 @@
+La 1ère étape de création de base de données commence par la création d'un projet
+-créer le projet
+-donner un nom au projet
+-selectionner un Build(RealTime Database)
+
+2eme étape
+-selectionner le lieu où se trouvera la base de données
+  *toujours selectionné le lieu d'installation de la base selon la localisation la plus proche de celui qui crée la base de données
+-Les mode de sécurité de la base de données : ceci permet de bloquer l'accès aux personnes étrangère, au risque de supprimer les informations dans la base de données.
+  *start in locked mode
+  *start test mode (enable)
+3ème étape
+-définir les règles concernant qui peut lire les informations de la base de données et qui peut y ajouter des informations.
+  *read (si définit en "true" alors de façon illimité tout le monde peut faire ce qu'il veut) ===(si définit en false alors il faudra une authentification afin d'avoir la possibilité d'envoyer des requêtes vers la BD)
+  *write(semblable à la règle "read")
+
+
+https://ap-music-e1542-default-rtdb.europe-west1.firebasedatabase.app/albums
+https://ap-music-e1542-default-rtdb.europe-west1.firebasedatabase.app/albumsList
